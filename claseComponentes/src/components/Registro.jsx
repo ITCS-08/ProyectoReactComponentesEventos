@@ -34,9 +34,6 @@ const Registro = () => {
             <h2 className="mb-2">Crea una Cuenta</h2>
             <div className="container mt-2">
                 <SocialButton />
-                {/* <SocialButton icon="fa fa-twitter" />
-                <SocialButton icon="fa fa-google" /> */}
-               
                 <Formulario onSubmit={handleFormSubmit} />
                 <Alertas message={alertMessage} type={alertType} />
             </div>

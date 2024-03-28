@@ -50,7 +50,7 @@ const Formulario = ({ onSubmit }) => {
     </form>
         </>
 
-    )
+    ) 
 };
 
 export default Formulario;
