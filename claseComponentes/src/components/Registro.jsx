@@ -1,12 +1,8 @@
-// Archivo: Registro.js
 import React, { useState } from 'react';
 import Formulario from './Formulario';
-import SocialButton from './SocialButton';
-import Alertas from './Alertas';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
 
 
 const Registro = () => {
@@ -32,11 +28,7 @@ const Registro = () => {
     return (
         <div className="container">
             <h2 className="mb-2">Crea una Cuenta</h2>
-            <div className="container mt-2">
-                <SocialButton />
-                <Formulario onSubmit={handleFormSubmit} />
-                <Alertas message={alertMessage} type={alertType} />
-            </div>
+           
         </div>
     );
 };
